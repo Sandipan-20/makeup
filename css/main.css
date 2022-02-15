@@ -715,12 +715,21 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 .boder_posi{
   border: 5px solid #FF4F02;
   padding: 2%;
-  border-radius: 20%;
+  
   text-align: center;
   text-shadow: 5px 5px 10px #858080 ;
-  box-shadow: 5px 5px 10px 10px #FF4F02 ;;
+  box-shadow: 5px 5px 10px 5px #FF4F02 ;
+  padding: auto;
 
 }
 .foot_img{
   height: 50px;
+}
+.back_img{
+  height: auto;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  
+  box-shadow: 5px 5px 10px 10px #FF4F02 ;
 }
